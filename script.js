@@ -3,8 +3,8 @@ function getFormvalue() {
     var formElement = document.getElementById("form1");
 
     // Access the input elements using their names
-    var firstName = formElement.fname.value.toCapitalize();
-    var lastName = formElement.lname.value.toCapitalize();
+    var firstName = (formElement.fname.value).toCapitalize();
+    var lastName = (formElement.lname.value).toCapitalize();
 
     // Display the first and last name using alert
     alert(`${firstName} ${lastName}`);
